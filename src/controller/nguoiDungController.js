@@ -1,5 +1,5 @@
 // /src/controllers/nguoiDungController.js
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const NguoiDung = require("../models/nguoiDung");
 
